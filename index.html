@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | E-commerce product page</title>
+
+</head>
+<body>
+  <main>
+    <section class="product-page">
+      <header>
+        <div class="header-left">
+          <img src="./images/logo.svg" alt="logo">
+          <nav>
+            <ul>
+              <li><a href="#">Collections</a></li>
+              <li><a href="#">Men</a></li>
+              <li><a href="#">Women</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header-right">
+          <div class="cart-checkout"><img class="cart-button-header" src="./images/icon-cart.svg" alt="">
+            <div class="cart-checkout-modal">
+              <h3>Cart</h3>
+              <div class="bought-item-section">
+                <div class="cart-img-section">
+                  <img src="./images/image-product-1-thumbnail.jpg" alt="">
+                </div>
+                <div class="item-name">Fall Limited Edition Sneakers</div>
+                <div class="bought-item-info">
+                  <div class="item-price">$125.00</div>
+                  <div class="item-count">x 3</div>
+                </div>
+              </div>
+              <button>Checkout</button>
+            </div>
+          </div>
+          <img class="profile" src="./images/image-avatar.png" alt="">
+        </div>
+      </header>
+
+      <div class="divider"></div>
+
+      <!-- main page -->
+
+      <section class="product">
+        <article class="image-content">
+          <div class="main-preview">
+            <img src="./images/image-product-1.jpg" alt="">
+          </div>
+          <div class="side-preview">
+            <div class="preview overlay active">
+              <img src="./images/image-product-1-thumbnail.jpg" alt="">
+            </div>
+            <div class="preview">
+              <img src="./images/image-product-2-thumbnail.jpg" alt="">
+            </div>
+            <div class="preview">
+              <img src="./images/image-product-3-thumbnail.jpg" alt="">
+            </div>
+            <div class="preview">
+              <img src="./images/image-product-4-thumbnail.jpg" alt="">
+            </div>
+          </div>
+        </article>
+
+        <article class="text-content">
+          <h4>SNEAKER COMPANY</h4>
+          <h1>Fall Limeted Edition Sneakers</h1>
+          <p>These low-profile sneakers are your perfect casual wear companion.
+            Featuring a durable rubber outer sole, they'll withstand
+            erything the weather can offer.
+          </p>
+          <div class="price-section">
+            <h2>$125.00</h2>
+            <div>50%</div>
+          </div>
+          <div class="sale">$250.00</div>
+          <div class="cart">
+            <div class="quantity">
+              <button class="minus" aria-label="decrease"><img src="./images/icon-minus.svg" alt=""></button>
+              <div class="count">0</div>
+              <button class="plus" aria-label="increase"><img src="./images/icon-plus.svg" alt=""></button>
+            </div>
+            <button class="cart-button">
+              <img src="./images/icon-cart-black.svg" alt="">
+              Add to cart
+            </button>
+          </div>
+        </article>
+
+      </section>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
